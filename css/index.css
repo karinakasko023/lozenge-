@@ -1,0 +1,36 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+</style>
+
+img {
+    width: 300px;
+    border: firebrick;
+}
+
+.chosen {
+    border-style: solid ;
+    border-width: 10px;
+    border-color: pink
+}
+
+h2 {
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+button {
+    font-family: 'Noto Sans JP', sans-serif;
+}
