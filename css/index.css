@@ -11,14 +11,29 @@
 </style>
 
 img {
-    width: 300px;
-    border: firebrick;
+    width: 200px;
 }
 
 .chosen {
+    width: 200px;
+    height: 200px;
     border-style: solid ;
     border-width: 10px;
     border-color: pink
+}
+
+.foto {
+width: 200px;
+}
+
+.fotto {
+    width: 200px;
+    height: 132px;  
+}
+
+.topi {
+    width: 200px;
+    height: 150px;
 }
 
 h2 {
@@ -31,6 +46,18 @@ p {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-button {
-    font-family: 'Noto Sans JP', sans-serif;
+.menu a {
+    display: block;
+    color: pink;
+    text-decoration: none;
 }
+
+.logo {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.menu a:hover {
+font-weight: bolder;
+}
+
