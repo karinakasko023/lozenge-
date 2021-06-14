@@ -61,3 +61,20 @@ p {
 font-weight: bolder;
 }
 
+header .banner {
+    background-image: url(../img/yagodu.jpg) ;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: pink;
+}
+
+.products {
+    border: 1px solid black;
+     
+}
+
+
+
