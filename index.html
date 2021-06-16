@@ -17,7 +17,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              div class="navbar-nav">
+              <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                   <a class="nav-link" href="#our-story">Our story</a>
                   <a class="nav-link" href="#flavors">Flavors</a>
@@ -139,12 +139,11 @@
          </article>
 
 </article>  
-    </div>
-        <a>pineapple</a>
-    </div>
+
     <h4>Hurry up before someone books the coziest spots!</h4>
-    <div class="buttons">
-         <button class="button card-button">Book a Table</button>
+ 
+<button type="button" class="btn btn-outline-dark">book a table</button>
+    
     </div>
     <div>
         <h6>Our Story</h6>
@@ -155,13 +154,35 @@
      <div>
          <br>
          <h2>Our Interior</h2>
-         <img class="foto" src="img/lampohku.jpg" alt="lampohku">
-         <img class="foto" src="img/sweet.jpg" alt="sweet">
-         <img class="foto" src="img/chair.jpg" alt="chair">
-         <img class="foto" src="img/people.jpg" alt="people">
-         <img class="foto" src="img/cafe.jpg" alt="cafe">
-         <div class="buttons">
-             <button>View Full Gallery</button>
+
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/cafe.jpg" class="d-block w-100" alt="cafe">
+            </div>
+            <div class="carousel-item">
+              <img src="img/chair.jpg" class="d-block w-100" alt="chair">
+            </div>
+            <div class="carousel-item">
+              <img src="img/sweet.jpg" class="d-block w-100" alt="sweet">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <button type="button" class="btn btn-outline-dark">View Full Gallery</button>
+         
          </div>
      </div>
 <nav>
